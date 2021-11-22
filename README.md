@@ -8,10 +8,11 @@ It supports:
 - [x] TypeScript with `declaration`
 - [x] ESLint
 - [x] Prettier
-- [x] Testing (`Jest`) + Coverage + `JSDOM`
+- [x] Testing (`Jest`) + Watch + Coverage + `JSDOM`
 - [x] Documentation (`TypeDoc`)
 - [x] Git (`Husky`, `lint-staged`)
 - [x] Minification (`Terser`)
+- [x] Release management (`Standard Version`)
 
 ### Usage
 
