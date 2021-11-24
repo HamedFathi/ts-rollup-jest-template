@@ -24,8 +24,8 @@ export default {
         file: './dist/index.umd.js',
         format: 'umd',
         name: 'YOUR_MODULE_NAME',
-		esModule: false,
-		exports: "named",		
+        esModule: false,
+        exports: "named",		
         sourcemap: true
     },
     {
