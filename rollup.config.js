@@ -7,8 +7,8 @@ export default {
         format: "iife",
         file: './dist/index.iife.js',
         name: 'YOUR_MODULE_NAME',
-		esModule: false,
-		exports: "named",	
+        esModule: false,
+        exports: "named",	
         sourcemap: true
     },
     {
@@ -16,8 +16,8 @@ export default {
         file: './dist/index.iife.min.js',
         name: 'YOUR_MODULE_NAME',
         sourcemap: true,
-		esModule: false,
-		exports: "named",	
+        esModule: false,
+        exports: "named",	
         plugins: [terser()]
     },
 	    {
@@ -32,8 +32,8 @@ export default {
         file: './dist/index.umd.min.js',
         format: 'umd',
         name: 'YOUR_MODULE_NAME',
-		esModule: false,
-		exports: "named",
+        esModule: false,
+        exports: "named",
         sourcemap: true,
         plugins: [terser()]
     },
