@@ -13,6 +13,7 @@ It supports:
 - [x] Git (`Husky`, `lint-staged`)
 - [x] Minification (`Terser`)
 - [x] Release and version management (`Standard Version`)
+- [x] Support the commitizen command line utility (`cz-cli`)
 - [ ] Bundle Visualizer (`Rollup Plugin Visualizer`)
 
 ### Usage

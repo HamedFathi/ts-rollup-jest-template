@@ -22,6 +22,7 @@
         "url": "https://github.com/your-project"
     },
     "scripts": {
+		"commit": "cz",
         "lint": "eslint src test --quiet --fix --ignore-path .gitignore",
         "test": "jest",
         "test-watch": "jest --watch",
@@ -47,6 +48,8 @@
         "@types/jsdom": "^16.2.13",
         "@typescript-eslint/eslint-plugin": "^5.4.0",
         "@typescript-eslint/parser": "^5.4.0",
+        "commitizen": "^4.2.4",
+        "cz-conventional-changelog": "^3.3.0",
         "eslint": "^8.3.0",
         "eslint-config-prettier": "^8.3.0",
         "eslint-plugin-prettier": "^4.0.0",
@@ -77,5 +80,10 @@
             "npm run lint",
             "git add"
         ]
+    },
+    "config": {
+        "commitizen": {
+            "path": "./node_modules/cz-conventional-changelog"
+        }
     }
 }
