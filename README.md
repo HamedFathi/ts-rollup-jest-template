@@ -8,13 +8,13 @@ It supports:
 - [x] TypeScript with `declaration`
 - [x] ESLint
 - [x] Prettier
-- [x] Testing (`Jest`) + Watch + Coverage + `JSDOM`
+- [x] Testing (`Jest`) + Watch + Coverage + `JSDOM`/`Happy DOM`
 - [x] Documentation (`TypeDoc`)
 - [x] Git (`Husky`, `lint-staged`)
 - [x] Minification (`Terser`)
 - [x] Release and version management (`Standard Version`)
 - [x] Support the commitizen command line utility (`cz-cli`)
-- [ ] Bundle Visualizer (`Rollup Plugin Visualizer`)
+- [x] Bundle Visualizer (`Rollup Plugin Visualizer`)
 
 ### Usage
 
